@@ -268,3 +268,41 @@ header .specs div{
   align-items: center;
   gap: 10px;
 }
+header .right{
+  width: 40%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header .right .bg{
+  position: absolute;
+  width: 50%;
+}
+header .right .shoe{
+  min-width: 120%;
+  transform: translate(-12%) rotate(-35deg);
+}
+
+
+section{
+  margin: 130px 0;
+}
+
+section .head{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+
+section .head a{
+  transition: letter-spacing 0.3s;
+}
+section .head a:hover{
+  letter-spacing: 2px;
+}
+
+section .head a span{
+  color: inherit;
+}
