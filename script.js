@@ -15,9 +15,6 @@ $(document).ready(function () {
             900: {
                 item: 3,
             },
-            1200: {
-                item: 4,
-            },
         },
     });
 });

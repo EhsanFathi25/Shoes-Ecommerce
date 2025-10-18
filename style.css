@@ -385,3 +385,86 @@ section .head a span{
 .featured-products .owl-dots .owl-dot.active{
   background-color: var(--color-magenta);
 }
+
+
+.banner .inner{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+
+.banner{
+  height: 450px;
+  background: linear-gradient(
+    to right,
+    var(--color-green) 50%,
+    var(--color-dark-blue) 50%
+  );
+}
+.banner .inner .left,
+.banner .inner .right{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.banner .inner .left{
+  padding-right: 50px;
+}
+
+.banner .inner .right{
+  padding-left: 50px;
+}
+
+.banner .inner img{
+  width: 60%;
+  height: 70%;
+  object-fit: contain;
+}
+
+.banner .content span{
+  display: block;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--color-dark-blue);
+  margin-bottom: 10px;
+  text-transform: capitalize;
+}
+.banner .content h2{
+  color: var(--color-white);
+  margin-bottom: 30px;
+}
+.banner .content p{
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: var(--color-white);
+  margin-bottom: 50px;
+}
+.banner .content .btn{
+  background-color: var(--color-dark-blue);
+  border-color: var(--color-dark-blue);
+  box-shadow: 0 10px 10px #3c69ff44;
+}
+
+.banner .content .btn::after{
+  color: var(--color-dark-blue);
+}
+
+.banner .right .content span{
+  color: var(--color-green);
+}
+
+.banner .right .content .btn{
+  background-color: var(--color-green);
+  border-color: var(--color-green);
+  box-shadow: 0 10px 10px #00ff4444;
+}
+
+.banner .right .content .btn::after{
+  color: var(--color-green);
+}
