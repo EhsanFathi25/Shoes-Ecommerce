@@ -468,3 +468,47 @@ section .head a span{
 .banner .right .content .btn::after{
   color: var(--color-green);
 }
+
+.best-selling .inner{
+  position: relative;
+  display: flex;
+  height: 550px;
+}
+
+.best-selling .inner .gradient{
+  position: absolute;
+  height: 100%;
+  width: 40%;
+  z-index: -1;
+  border-radius: 0 30px 30px 0;
+  background: linear-gradient(270deg, var(--color-magenta) 0%, #fff 100%);
+}
+
+.best-selling .inner .container{
+  display: flex;
+}
+
+.best-selling .inner .left{
+  width: 60%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.best-selling .inner .left img{
+  width: 90%;
+  object-fit: cover;
+}
+
+.best-selling .inner .right{
+  width: 40%;
+}
+
+.best-selling .inner .right .content{
+  height: 100%;
+  padding: 0 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
