@@ -512,3 +512,29 @@ section .head a span{
   justify-content: center;
   gap: 20px;
 }
+
+.new-arrival .head{
+  margin-bottom: 20px;
+}
+
+.new-arrival p{
+  max-width: 350px;
+  margin-bottom: 60px;
+}
+
+.new-arrival .product .img{
+  position: relative;
+  height: 400px;
+  border-radius: 20px;
+  margin-bottom: 30px;
+  background: linear-gradient(270deg, var(--color) 0%, #fff 100%);
+}
+
+.new-arrival .product .count{
+  position: absolute;
+  left: 20px;
+  top: 10px;
+  font-size: 44px;
+  font-weight: 600;
+  color: var(--color-white);
+}
