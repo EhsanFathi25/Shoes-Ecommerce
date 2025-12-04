@@ -574,3 +574,26 @@ section .head a span{
   z-index: 2;
   background-color: var(--color-white);
 }
+
+.new-arrival .product .plus-btn i{
+  margin-top: 5px;
+  font-size: 12px;
+}
+
+.new-arrival .owl-dots{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px ;
+}
+
+.new-arrival .owl-dots .owl-dot{
+  width: 12px;
+  height: 12px;
+  border-radius: 50px;
+  background-color: var(--color-gray-300);
+}
+
+.new-arrival .owl-dots .owl-dot.active{
+  background-color: var(--color-blue);
+}
