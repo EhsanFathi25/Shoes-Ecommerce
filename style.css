@@ -597,3 +597,46 @@ section .head a span{
 .new-arrival .owl-dots .owl-dot.active{
   background-color: var(--color-blue);
 }
+
+.why-us .inner{
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+.why-us .inner .left{
+  display: flex;
+  width: 150%;
+}
+.why-us .inner .left img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.why-us .inner .right{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+}
+.why-us .inner .right p{
+  color: var(--color-gray-500);
+}
+
+.why-us .inner .qualities{
+  display: flex;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 30px;
+}
+.why-us .inner .qualities .quality{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.why-us .inner .qualities .quality i{
+  font-size: 30px;
+  color: var(--color-blue);
+}
+.why-us .inner .qualities .quality p{
+  font-size: 18px;
+  color: var(--color-dark-blue);
+}
