@@ -22,4 +22,6 @@ $(document).ready(function () {
 
   carousel(".featured-products", 10);
   carousel(".new-arrival-products", 70);
+  carousel(".product-categories", 20);
+  carousel(".brands", 20);
 });
