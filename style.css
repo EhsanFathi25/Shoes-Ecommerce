@@ -717,3 +717,71 @@ section .head a span{
   left: 40px;
   background: linear-gradient(-445deg, var(--color) 0%, transparent 100%);
 }
+
+.newsletter-form{
+  padding: 100px 0;
+  background: linear-gradient(to right, #9fb2ff, var(--color-blue));
+}
+
+.newsletter-form .container{
+  display: flex;
+}
+
+.newsletter-form .left{
+  width: 60%;
+}
+
+.newsletter-form .left div{
+  max-width: 450px;
+}
+
+.newsletter-form .left h2{
+  font-size: 40px;
+  margin-bottom: 60px;
+  color: var(--color-white);
+}
+
+.newsletter-form .left form div{
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.newsletter-form .left form input{
+  width: 100%;
+  height: 50px;
+  padding: 0 20px;
+  border: none;
+  outline: none;
+  text-align: center;
+  background-color: var(--color-white);
+}
+
+.newsletter-form .left form button{
+  width: 100%;
+  height: 50px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 14px;
+  text-align: center;
+  background-color: var(--color-blue);
+  color: var(--color-white);
+}
+
+.newsletter-form .right{
+  position: relative;
+  height: 200px;
+  width: 40%;
+}
+
+.newsletter-form .right img{
+  position: relative;
+  width: 100%;
+  height: 500px;
+  object-fit: contain;
+  z-index: 99;
+  transform: rotate(-45deg) translateY(-150deg);
+}
