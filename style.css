@@ -783,5 +783,48 @@ section .head a span{
   height: 500px;
   object-fit: contain;
   z-index: 99;
-  transform: rotate(-45deg) translateY(-150deg);
+  transform: rotate(-45deg) translateY(-150px);
+}
+
+
+.newsletter-form .right .gradient{
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -150px;
+  right: 100px;
+  background: linear-gradient(-45deg, var(--color-magenta), #ff93b4);
+}
+
+footer{
+  padding-top: 100px;
+  padding-bottom: 50px;
+  background-color: var(--color-white);
+}
+
+footer .container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 30px;
+}
+
+footer .footer-item{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+footer .footer-item .about{
+  font-size: 14px;
+  color: var(--color-gray-500);
+}
+
+footer .footer-item .social-icons{
+  display: flex;
+  gap: 20px;
+}
+
+footer .footer-item .social-icons a{
+  font-size: 20px;
 }
