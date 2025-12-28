@@ -828,3 +828,34 @@ footer .footer-item .social-icons{
 footer .footer-item .social-icons a{
   font-size: 20px;
 }
+
+footer .footer-item h2{
+  font-size: 20px;
+  color: var(--color-dark-blue);
+}
+
+footer .footer-item ul li{
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+footer .footer-item ul li a{
+  color: var(--color-gray-500);
+  font-style: 14px;
+}
+
+footer .footer-item ul li a:hover{
+  color: var(--color-magenta);
+}
+
+footer .copyright{
+  text-align: center;
+  margin-top: 50px;
+  padding-top: 50px;
+  color: var(--color-gray-500);
+  border-top: 1px solid var(--color-gray-200);
+}
+
+footer .copyright p{
+  font-size: 14px;
+}
