@@ -24,4 +24,8 @@ $(document).ready(function () {
   carousel(".new-arrival-products", 70);
   carousel(".product-categories", 20);
   carousel(".brands", 20);
+
+  $(".hamburger").click(() => {
+    $("nav").toggleClass("active")
+  })
 });

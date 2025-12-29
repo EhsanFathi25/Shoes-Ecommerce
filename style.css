@@ -216,6 +216,16 @@ nav .icons i[data-count]::after{
   background-color: var(--color-magenta);
 }
 
+nav .icons .hamburger{
+  display: none;
+}
+nav .icons .hamburger.close{
+  position: absolute;
+  top: 20px;
+  right: 10px;
+  transition: all 0.3s;
+}
+
 .header{
   background-color: var(--color-gray-100);
 }
@@ -858,4 +868,29 @@ footer .copyright{
 
 footer .copyright p{
   font-size: 14px;
+}
+
+
+/* ---------------------------------------- */
+
+@media (max-width: 1300px) {
+  nav .nav-links{
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    max-width: 250px;
+    height: 100vh;
+    flex-direction: column;
+    background-color: var(--color-white);
+    z-index: 99;
+    padding-top: 150px;
+    justify-content: flex-start;
+    gap: 40px;
+    transition: all 0.3s;
+    transform: translateX(100%);
+  }
+  nav.active .nav-links{
+    transform: translateX(0);
+  }
 }
